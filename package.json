@@ -24,8 +24,5 @@
     "create-svelte": "^5.0.3",
     "latest-version": "^7.0.0",
     "prompts": "^2.4.2"
-  },
-  "dependencies": {
-    "esm": "^3.2.25"
   }
 }

@@ -1,8 +1,8 @@
 {
   "name": "@xl-soft/create-ui",
-  "version": "1.0.0",
+  "version": "1.0.5-stable",
   "description": "Creating project with setuped @xl-soft/ui",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,12 +10,22 @@
     "type": "git",
     "url": "https://githib.com/xl-soft/create-ui"
   },
+  "bin": {
+    "@xl-soft/create-ui": "src/index.js",
+    "create-ui": "src/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
   "author": "XL Software",
   "license": "MIT",
-  "type": "module",
   "devDependencies": {
     "create-svelte": "^5.0.3",
     "latest-version": "^7.0.0",
     "prompts": "^2.4.2"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }

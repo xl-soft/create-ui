@@ -1,6 +1,6 @@
 {
   "name": "@xl-soft/create-ui",
-  "version": "1.0.6-stable",
+  "version": "1.0.7-stable",
   "description": "Creating project with setuped @xl-soft/ui",
   "main": "src/index.js",
   "scripts": {

@@ -20,7 +20,7 @@
   "type": "module",
   "author": "XL Software",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "create-svelte": "^5.0.3",
     "latest-version": "^7.0.0",
     "prompts": "^2.4.2"

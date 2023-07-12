@@ -1,5 +1,5 @@
 {
-  "name": "create-ui",
+  "name": "@xl-soft/create-ui",
   "version": "1.0.0",
   "description": "Creating project with setuped @xl-soft/ui",
   "main": "index.js",
